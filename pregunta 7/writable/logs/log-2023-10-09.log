@@ -1,0 +1,1031 @@
+CRITICAL - 2023-10-09 03:48:03 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-09 02:58:28 --> Undefined variable $datos
+in APPPATH\Views\listado.php on line 45.
+ 1 APPPATH\Views\listado.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\listado.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\listado.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listado', [], true)
+ 5 APPPATH\Controllers\Crud.php(9): view('listado')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 03:01:34 --> Undefined variable $datos
+in APPPATH\Views\listado.php on line 45.
+ 1 APPPATH\Views\listado.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\listado.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\listado.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listado', [], true)
+ 5 APPPATH\Controllers\Crud.php(9): view('listado')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 03:06:25 --> Undefined variable $datos
+in APPPATH\Views\listado.php on line 45.
+ 1 APPPATH\Views\listado.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\listado.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\listado.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listado', [], true)
+ 5 APPPATH\Controllers\Crud.php(9): view('listado')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 03:09:23 --> Undefined variable $mensaje
+in APPPATH\Views\listado.php on line 57.
+ 1 APPPATH\Views\listado.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\listado.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\listado.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listado', [], true)
+ 5 APPPATH\Controllers\Crud.php(9): view('listado')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 03:18:13 --> Undefined property: stdClass::$materno
+in APPPATH\Views\listado.php on line 48.
+ 1 APPPATH\Views\listado.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$materno', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\listado.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\listado.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listado', [], true)
+ 5 APPPATH\Controllers\Crud.php(19): view('listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 03:18:25 --> Undefined property: stdClass::$id_nombre
+in APPPATH\Views\listado.php on line 49.
+ 1 APPPATH\Views\listado.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_nombre', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\listado.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\listado.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listado', [], true)
+ 5 APPPATH\Controllers\Crud.php(19): view('listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 03:22:20 --> syntax error, unexpected variable "$routes"
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 03:33:20 --> syntax error, unexpected double-quoted string "contrasenia", expecting "]"
+in APPPATH\Controllers\Crud.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Controllers\\Crud.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Crud')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Crud')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Crud', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 03:34:38 --> Undefined array key "ci"
+in APPPATH\Controllers\Crud.php on line 24.
+ 1 APPPATH\Controllers\Crud.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ci"', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Controllers\\Crud.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:35:24 --> mysqli_sql_exception: Unknown column 'ci' in 'field list' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `al...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(30): App\Models\CrudModel->insertar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:35:24 --> Unknown column 'ci' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumno` (`ci`, `nombre`, `paterno`, `contrasenia`) VALUES (:ci:, :nombre:, :paterno:, :contrasenia:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(30): App\Models\CrudModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:36:21 --> mysqli_sql_exception: Unknown column 'nombre' in 'field list' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `al...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(29): App\Models\CrudModel->insertar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:36:21 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumno` (`nombre`, `paterno`, `contrasenia`) VALUES (:nombre:, :paterno:, :contrasenia:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(29): App\Models\CrudModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:37:53 --> mysqli_sql_exception: Unknown column 'ci' in 'field list' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `al...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(29): App\Models\CrudModel->insertar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:37:53 --> Unknown column 'ci' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumno` (`ci`, `nombre`, `paterno`) VALUES (:ci:, :nombre:, :paterno:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(29): App\Models\CrudModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:41:27 --> mysqli_sql_exception: Unknown column 'ci' in 'field list' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `al...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(29): App\Models\CrudModel->insertar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:41:27 --> Unknown column 'ci' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumno` (`ci`, `nombre`, `paterno`) VALUES (:ci:, :nombre:, :paterno:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(29): App\Models\CrudModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:42:12 --> mysqli_sql_exception: Unknown column 'nombre' in 'field list' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `al...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(28): App\Models\CrudModel->insertar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:42:12 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumno` (`nombre`, `paterno`) VALUES (:nombre:, :paterno:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(28): App\Models\CrudModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:42:20 --> mysqli_sql_exception: Unknown column 'nombre' in 'field list' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `al...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(28): App\Models\CrudModel->insertar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:42:20 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumno` (`nombre`, `paterno`) VALUES (:nombre:, :paterno:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(28): App\Models\CrudModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:45:52 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(29): App\Models\CrudModel->insertar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:45:52 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`nombre`, `paterno`, `contrasenia`) VALUES (:nombre:, :paterno:, :contrasenia:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(29): App\Models\CrudModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:46:03 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(29): App\Models\CrudModel->insertar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:46:03 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`nombre`, `paterno`, `contrasenia`) VALUES (:nombre:, :paterno:, :contrasenia:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(29): App\Models\CrudModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:47:04 --> mysqli_sql_exception: Duplicate entry '12345' for key 'PRIMARY' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(30): App\Models\CrudModel->insertar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:47:04 --> Duplicate entry '12345' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`ci`, `nombre`, `paterno`, `contrasenia`) VALUES (:ci:, :nombre:, :paterno:, :contrasenia:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(30): App\Models\CrudModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:51:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mibd_cundir`.`alumno`, CONSTRAINT `alumno_ibfk_2` FOREIGN KEY (`idmat`) REFERENCES `materia` (`idmat`)) in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `al...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(36): App\Models\CrudModel->insertar(Array, Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:51:41 --> Cannot add or update a child row: a foreign key constraint fails (`mibd_cundir`.`alumno`, CONSTRAINT `alumno_ibfk_2` FOREIGN KEY (`idmat`) REFERENCES `materia` (`idmat`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumno` (`ci_alumno`, `idmat`, `depto`, `promedio`) VALUES (:ci_alumno:, :idmat:, :depto:, :promedio:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(36): App\Models\CrudModel->insertar([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:52:11 --> mysqli_sql_exception: Duplicate entry '12345' for key 'PRIMARY' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(36): App\Models\CrudModel->insertar(Array, Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:52:11 --> Duplicate entry '12345' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`ci`, `nombre`, `paterno`, `contrasenia`) VALUES (:ci:, :nombre:, :paterno:, :contrasenia:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(36): App\Models\CrudModel->insertar([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:53:26 --> mysqli_sql_exception: Duplicate entry '12345' for key 'PRIMARY' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(36): App\Models\CrudModel->insertar(Array, Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:53:26 --> Duplicate entry '12345' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`ci`, `nombre`, `paterno`, `contrasenia`) VALUES (:ci:, :nombre:, :paterno:, :contrasenia:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(36): App\Models\CrudModel->insertar([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:53:50 --> mysqli_sql_exception: Duplicate entry '12345' for key 'PRIMARY' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(36): App\Models\CrudModel->insertar(Array, Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:53:50 --> Duplicate entry '12345' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`ci`, `nombre`, `paterno`, `contrasenia`) VALUES (:ci:, :nombre:, :paterno:, :contrasenia:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(36): App\Models\CrudModel->insertar([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:54:35 --> mysqli_sql_exception: Unknown column 'id_nombre' in 'where clause' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(35): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(79): App\Models\CrudModel->eliminar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->eliminar('12345')
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:54:35 --> Unknown column 'id_nombre' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuario`
+WHERE `id_nombre` = :id_nombre:', [...], false)
+ 2 APPPATH\Models\CrudModel.php(35): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Crud.php(79): App\Models\CrudModel->eliminar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->eliminar('12345')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:55:33 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`mibd_cundir`.`alumno`, CONSTRAINT `alumno_ibfk_1` FOREIGN KEY (`ci_alumno`) REFERENCES `usuario` (`ci`)) in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(35): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(79): App\Models\CrudModel->eliminar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->eliminar('1')
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:55:33 --> Cannot delete or update a parent row: a foreign key constraint fails (`mibd_cundir`.`alumno`, CONSTRAINT `alumno_ibfk_1` FOREIGN KEY (`ci_alumno`) REFERENCES `usuario` (`ci`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuario`
+WHERE `ci` = :ci:', [...], false)
+ 2 APPPATH\Models\CrudModel.php(35): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Crud.php(79): App\Models\CrudModel->eliminar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->eliminar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:56:33 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`mibd_cundir`.`alumno`, CONSTRAINT `alumno_ibfk_1` FOREIGN KEY (`ci_alumno`) REFERENCES `usuario` (`ci`)) in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(33): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(79): App\Models\CrudModel->eliminar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->eliminar('1')
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:56:33 --> Cannot delete or update a parent row: a foreign key constraint fails (`mibd_cundir`.`alumno`, CONSTRAINT `alumno_ibfk_1` FOREIGN KEY (`ci_alumno`) REFERENCES `usuario` (`ci`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuario`
+WHERE `ci` = :ci:', [...], false)
+ 2 APPPATH\Models\CrudModel.php(33): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Crud.php(79): App\Models\CrudModel->eliminar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->eliminar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 03:57:32 --> Undefined array key 0
+in APPPATH\Models\CrudModel.php on line 14.
+ 1 APPPATH\Models\CrudModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Models\\CrudModel.php', 14)
+ 2 APPPATH\Controllers\Crud.php(36): App\Models\CrudModel->insertar([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 03:58:35 --> syntax error, unexpected token ".", expecting ")"
+in APPPATH\Models\CrudModel.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Models\\CrudModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\CrudModel')
+ 3 APPPATH\Controllers\Crud.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\CrudModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:58:58 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`mibd_cundir`.`alumno`, CONSTRAINT `alumno_ibfk_1` FOREIGN KEY (`ci_alumno`) REFERENCES `usuario` (`ci`)) in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(35): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(79): App\Models\CrudModel->eliminar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->eliminar('6')
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:58:58 --> Cannot delete or update a parent row: a foreign key constraint fails (`mibd_cundir`.`alumno`, CONSTRAINT `alumno_ibfk_1` FOREIGN KEY (`ci_alumno`) REFERENCES `usuario` (`ci`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuario`
+WHERE `ci` = :ci:', [...], false)
+ 2 APPPATH\Models\CrudModel.php(35): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Crud.php(79): App\Models\CrudModel->eliminar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->eliminar('6')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 03:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 03:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 03:59:49 --> mysqli_sql_exception: Unknown column 'ci' in 'where clause' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `al...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `al...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `al...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `al...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(35): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(79): App\Models\CrudModel->eliminar(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->eliminar('6')
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 03:59:49 --> Unknown column 'ci' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `alumno`
+WHERE `ci` = :ci:', [...], false)
+ 2 APPPATH\Models\CrudModel.php(35): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Crud.php(79): App\Models\CrudModel->eliminar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->eliminar('6')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 04:01:26 --> syntax error, unexpected token "return"
+in APPPATH\Models\CrudModel.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Models\\CrudModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\CrudModel')
+ 3 APPPATH\Controllers\Crud.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\CrudModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 04:01:42 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\CrudModel.php on line 37.
+ 1 APPPATH\Controllers\Crud.php(80): App\Models\CrudModel->eliminar([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->eliminar('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 04:01:56 --> mysqli_sql_exception: Unknown column 'ci' in 'where clause' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `al...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `al...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `al...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `al...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(37): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(80): App\Models\CrudModel->eliminar(Array, Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->eliminar('1')
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 04:01:56 --> Unknown column 'ci' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `alumno`
+WHERE `ci` = :ci:', [...], false)
+ 2 APPPATH\Models\CrudModel.php(37): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Crud.php(80): App\Models\CrudModel->eliminar([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->eliminar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 04:04:34 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(36): App\Models\CrudModel->insertar(Array, Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 04:04:34 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`ci`, `nombre`, `paterno`, `contrasenia`) VALUES (:ci:, :nombre:, :paterno:, :contrasenia:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(36): App\Models\CrudModel->insertar([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 04:05:54 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `al...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(36): App\Models\CrudModel->insertar(Array, Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 04:05:54 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumno` (`ci_alumno`, `idmat`, `depto`, `promedio`) VALUES (:ci_alumno:, :idmat:, :depto:, :promedio:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(36): App\Models\CrudModel->insertar([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 04:06:32 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `al...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(36): App\Models\CrudModel->insertar(Array, Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 04:06:32 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumno` (`ci_alumno`, `idmat`, `depto`, `promedio`) VALUES (:ci_alumno:, :idmat:, :depto:, :promedio:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(36): App\Models\CrudModel->insertar([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 04:06:43 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mibd_cundir`.`alumno`, CONSTRAINT `alumno_ibfk_1` FOREIGN KEY (`ci_alumno`) REFERENCES `usuario` (`ci`)) in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `al...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(36): App\Models\CrudModel->insertar(Array, Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 04:06:43 --> Cannot add or update a child row: a foreign key constraint fails (`mibd_cundir`.`alumno`, CONSTRAINT `alumno_ibfk_1` FOREIGN KEY (`ci_alumno`) REFERENCES `usuario` (`ci`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumno` (`ci_alumno`, `idmat`, `depto`, `promedio`) VALUES (:ci_alumno:, :idmat:, :depto:, :promedio:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(36): App\Models\CrudModel->insertar([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 04:09:48 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(36): App\Models\CrudModel->insertar(Array, Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 04:09:48 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`ci`, `nombre`, `paterno`, `contrasenia`) VALUES (:ci:, :nombre:, :paterno:, :contrasenia:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(36): App\Models\CrudModel->insertar([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 04:12:09 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(37): App\Models\CrudModel->insertar(Array, Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 04:12:09 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`ci`, `nombre`, `paterno`, `contrasenia`) VALUES (:ci:, :nombre:, :paterno:, :contrasenia:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(37): App\Models\CrudModel->insertar([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 04:12:27 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(37): App\Models\CrudModel->insertar(Array, Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 04:12:27 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`ci`, `nombre`, `paterno`, `contrasenia`) VALUES (:ci:, :nombre:, :paterno:, :contrasenia:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(37): App\Models\CrudModel->insertar([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 04:12:54 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(36): App\Models\CrudModel->insertar(Array, Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->crear()
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 04:12:54 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`ci`, `nombre`, `paterno`, `contrasenia`) VALUES (:ci:, :nombre:, :paterno:, :contrasenia:)', [...], false)
+ 2 APPPATH\Models\CrudModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Crud.php(36): App\Models\CrudModel->insertar([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 04:15:27 --> mysqli_sql_exception: Unknown column 'id_nombre' in 'where clause' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(68): App\Models\CrudModel->obtenerNombre(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('10101')
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 04:15:27 --> Unknown column 'id_nombre' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `id_nombre` = :id_nombre:', [...], false)
+ 2 APPPATH\Models\CrudModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Crud.php(68): App\Models\CrudModel->obtenerNombre([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('10101')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 04:17:09 --> mysqli_sql_exception: Unknown column 'id_nombre' in 'where clause' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(69): App\Models\CrudModel->obtenerNombre(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('1')
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 04:17:09 --> Unknown column 'id_nombre' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `id_nombre` = :id_nombre:', [...], false)
+ 2 APPPATH\Models\CrudModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Crud.php(69): App\Models\CrudModel->obtenerNombre([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-09 04:18:22 --> mysqli_sql_exception: Unknown column 'id_nombre' in 'where clause' in D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\xampp\htdocs\framework_ci4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\xampp\htdocs\framework_ci4\app\Models\CrudModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\xampp\htdocs\framework_ci4\app\Controllers\Crud.php(69): App\Models\CrudModel->obtenerNombre(Array)
+#6 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('1')
+#7 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\XAMPP\xampp\htdocs\framework_ci4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\xampp\htdocs\framework_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-09 04:18:22 --> Unknown column 'id_nombre' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `id_nombre` = :id_nombre:', [...], false)
+ 2 APPPATH\Models\CrudModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Crud.php(69): App\Models\CrudModel->obtenerNombre([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 04:18:44 --> Undefined array key "id_nombre"
+in APPPATH\Views\actualizar.php on line 4.
+ 1 APPPATH\Views\actualizar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_nombre"', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('actualizar', [], true)
+ 5 APPPATH\Controllers\Crud.php(71): view('actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 04:19:17 --> Undefined array key "materno"
+in APPPATH\Views\actualizar.php on line 7.
+ 1 APPPATH\Views\actualizar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "materno"', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('actualizar', [], true)
+ 5 APPPATH\Controllers\Crud.php(71): view('actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 04:19:19 --> Undefined array key "materno"
+in APPPATH\Views\actualizar.php on line 7.
+ 1 APPPATH\Views\actualizar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "materno"', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('actualizar', [], true)
+ 5 APPPATH\Controllers\Crud.php(71): view('actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 04:19:49 --> Undefined array key "materno"
+in APPPATH\Views\actualizar.php on line 7.
+ 1 APPPATH\Views\actualizar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "materno"', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('actualizar', [], true)
+ 5 APPPATH\Controllers\Crud.php(71): view('actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 04:20:00 --> Undefined array key "password"
+in APPPATH\Views\actualizar.php on line 7.
+ 1 APPPATH\Views\actualizar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('actualizar', [], true)
+ 5 APPPATH\Controllers\Crud.php(71): view('actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 04:20:03 --> Undefined array key "password"
+in APPPATH\Views\actualizar.php on line 7.
+ 1 APPPATH\Views\actualizar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('actualizar', [], true)
+ 5 APPPATH\Controllers\Crud.php(71): view('actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 04:20:14 --> Undefined variable $idNombre
+in APPPATH\Views\actualizar.php on line 30.
+ 1 APPPATH\Views\actualizar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idNombre', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('actualizar', [], true)
+ 5 APPPATH\Controllers\Crud.php(71): view('actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 04:20:25 --> Undefined variable $password
+in APPPATH\Views\actualizar.php on line 42.
+ 1 APPPATH\Views\actualizar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $password', 'D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\XAMPP\\xampp\\htdocs\\framework_ci4\\app\\Views\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('actualizar', [], true)
+ 5 APPPATH\Controllers\Crud.php(71): view('actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Crud->obtenerNombre('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 04:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 04:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
